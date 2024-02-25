@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <!--  <groups>
+		  <define name = "SuperGroup">
+  			<include name = "dhoni"></include>
+  			<include name = "virat"></include>
+  		</define>
+  		<run>
+  			<include name = "SuperGroup"></include>
+  		</run>
+
+      </groups> -->
+	  
+    <classes>
+      <!--<class name="TestNG.SampleTestNG"/>-->
+      <!--<class name="TestNG.priority"/>-->
+      <!--<class name="TestNG.Dependencies"/>-->
+      <!--<class name="TestNG.SuiteExample"/>-->
+      <!--<class name="TestNG.GroupingTestCase"/>-->
+      <class name="TestNG.ParaBank_TestNG"/>
+      <class name="TestNG.OrangeHRM_TestNG"/>
+      
+      <parameter name="dialogue" value="AAHAAN?"></parameter>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
