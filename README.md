@@ -1,2 +1,10 @@
 # Selenium-Automation-Script-for-OrangeHRM-and-Parabank.
 This Java Selenium script automates tasks on OrangeHRM and Parabank websites, including registration, form filling, and testing functionalities. It utilizes TestNG for test case execution.
+
+This project presents a robust Selenium automation script crafted in Java to streamline tasks on OrangeHRM and Parabank websites. Primarily, it focuses on facilitating registration, form filling, and testing operations across these platforms. The script orchestrates the registration journey on OrangeHRM by mimicking the steps required to sign up for a 30-Day Free Trial. It adeptly populates fields like name, email, company, country, and phone number while also tackling the reCAPTCHA verification process seamlessly. Similarly, it extends its capabilities to automate registration on the Parabank website, meticulously entering user information such as name, address, city, state, zip code, phone number, SSN, username, and password.
+
+In addition to its registration prowess, the script leverages TestNG for test case execution, thereby ensuring thorough testing across diverse modules of both platforms. By employing Java with Selenium WebDriver, it boasts a powerful automation framework capable of interacting with web elements using a variety of locators including XPath, className, and id. Furthermore, it incorporates explicit waits to maintain synchronization during test executions, thereby enhancing script reliability and stability.
+
+Commented code segments are included throughout the script, enhancing readability and simplifying maintenance efforts. This automation solution significantly enhances efficiency by automating manual tasks and guaranteeing the consistency and reliability of test executions across OrangeHRM and Parabank applications.
+
+In summary, this Selenium automation script offers a comprehensive solution for automating registration, form filling, and testing processes on both OrangeHRM and Parabank websites. It demonstrates the power of Java and Selenium WebDriver in automating web interactions while leveraging TestNG for effective test case management and validation.
